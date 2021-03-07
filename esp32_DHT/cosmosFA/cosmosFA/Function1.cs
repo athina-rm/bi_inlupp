@@ -16,13 +16,14 @@ namespace cosmosFA
         [FunctionName("saveToCosmos")]
         public static void Run([IoTHubTrigger("messages/events", Connection = "iotHub", ConsumerGroup="cosmos")]EventData message, 
             [CosmosDB(
-                databaseName: "cosmosatma",
+                databaseName: "cosmos",
                 collectionName: "Messages",
                 ConnectionStringSetting = "cosmosDbConnection",
                 CreateIfNotExists = true
             )]out dynamic cosmos, ILogger log)
         {
-            log.LogInformation($"C# IoT Hub trigger function processed a message: {Encoding.UTF8.GetString(message.Body.Array)}");
+            log.LogInformation($"message/events: {Encoding.UTF8.GetString(message.Body.Array)}");
+            //message.properties
             cosmos = Encoding.UTF8.GetString(message.Body.Array);
         }
     }
