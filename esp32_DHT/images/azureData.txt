@@ -1,0 +1,37 @@
+IOTHUB:
+
+10:20:11 AM, 03/08/2021:
+{
+  "body": {
+    "type": "dht",
+    "deviceId": "esp32",
+    "epochTime": 1615195211,
+    "temperature": 18.4,
+    "humidity": 26
+  },
+  "enqueuedTime": "2021-03-08T09:20:11.483Z",
+  "properties": {
+    "School": "Nackademin",
+    "Student": "Athina Mannaraprayil"
+  }
+}
+
+COSMOS DB:
+{
+    "data": {
+        "epochTime": 1615239011,
+        "temperature": 23.2,
+        "humidity": 18
+    },
+    "deviceId": "esp32",
+    "measurementType": "DHT",
+    "measurementTime": "2021-03-08T21:30:11",
+    "school": "Nackademin",
+    "student": "Athina Mannaraprayil",
+    "id": "7fdb3284-f5b1-4025-ac34-452e2c1350c7",
+    "_rid": "uBUqAN068y0BAAAAAAAAAA==",
+    "_self": "dbs/uBUqAA==/colls/uBUqAN068y0=/docs/uBUqAN068y0BAAAAAAAAAA==/",
+    "_etag": "\"5b0116a5-0000-0d00-0000-604697640000\"",
+    "_attachments": "attachments/",
+    "_ts": 1615239012
+}

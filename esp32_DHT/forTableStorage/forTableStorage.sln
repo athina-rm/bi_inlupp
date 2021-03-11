@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cosmosFA", "cosmosFA\cosmosFA.csproj", "{F1A7991B-0830-4F86-80A7-984D66B9862E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forTableStorage", "forTableStorage\forTableStorage.csproj", "{029E1BFF-E26D-449A-9447-09EED6D6F350}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F1A7991B-0830-4F86-80A7-984D66B9862E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1A7991B-0830-4F86-80A7-984D66B9862E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1A7991B-0830-4F86-80A7-984D66B9862E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1A7991B-0830-4F86-80A7-984D66B9862E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029E1BFF-E26D-449A-9447-09EED6D6F350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029E1BFF-E26D-449A-9447-09EED6D6F350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029E1BFF-E26D-449A-9447-09EED6D6F350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029E1BFF-E26D-449A-9447-09EED6D6F350}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {17E342DA-42A1-4124-802E-436E5BB08EDC}
+		SolutionGuid = {4A0DFBDA-4880-4C75-A5B6-075EEBC6AE12}
 	EndGlobalSection
 EndGlobal

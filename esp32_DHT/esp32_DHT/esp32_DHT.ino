@@ -6,9 +6,7 @@
 
 #include<WiFi.h>                  //for WiFi in Esp32
 
-#define INTERVAL 10000
 #define DEVICE_ID "esp32"
-#define MESSAGE_LEN_MAX 256
 #define DHT_PIN 4
 #define DHT_TYPE DHT11
 
@@ -29,25 +27,26 @@ void setup() {
   initEpochTime();
 }
 
-void loop() {
-  epochTime = time(NULL);  
+void loop() {    
   float temperature=dht.readTemperature();      //taking temperature data
   float humidity= dht.readHumidity();           //taking humidity data
-  char msg[256]; 
-  StaticJsonDocument<256> jdoc;                  //declaring jsondocument variable  
-  jdoc["type"] = "dht";
-  jdoc["deviceId"] = "esp32";
-  jdoc["epochTime"] = epochTime;
-  jdoc["temperature"] = temperature;            //creating json document with the temperature and humidity data
-  jdoc["humidity"] = humidity;
-  serializeJson(jdoc, msg); 
-      if(_connected ) {  
-        EVENT_INSTANCE* message = Esp32MQTTClient_Event_Generate(msg, MESSAGE);
-        Esp32MQTTClient_Event_AddProp(message, "School", "Nackademin");
-        Esp32MQTTClient_Event_AddProp(message, "Student", "Athina Mannaraprayil");
-        Esp32MQTTClient_SendEventInstance(message);     //sending to Azure
-      }
-   delay(INTERVAL);
-   Serial.println(msg);                          //for debugging only
-
+  epochTime = time(NULL);
+  if (temperature<=prevTemp-1 || temperature>=prevTemp+1)
+  {
+    char msg[256]; 
+    StaticJsonDocument<256> jdoc;                  //declaring jsondocument variable      
+    jdoc["epochTime"] = epochTime;
+    jdoc["temperature"] = temperature;            //creating json document with the temperature and humidity data
+    jdoc["humidity"] = humidity;
+    serializeJson(jdoc, msg); 
+        if(_connected ) {  
+          EVENT_INSTANCE* message = Esp32MQTTClient_Event_Generate(msg, MESSAGE);
+          Esp32MQTTClient_Event_AddProp(message, "measurementType", "DHT");
+          Esp32MQTTClient_Event_AddProp(message, "School", "Nackademin");
+          Esp32MQTTClient_Event_AddProp(message, "Student", "Athina Mannaraprayil");
+          Esp32MQTTClient_SendEventInstance(message);     //sending to Azure
+        }
+    prevTemp=temperature;
+    Serial.println(msg);                          //for debugging only
+  }
 } 
