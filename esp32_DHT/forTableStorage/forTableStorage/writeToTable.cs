@@ -31,7 +31,9 @@ namespace forTableStorage
                     MeasurementType = message.Properties["measurementType"].ToString(),
                     MeasurementTime = DateTimeOffset.FromUnixTimeSeconds(unixTime).DateTime,
                     Temperature = msg["temperature"],
-                    Humidity = msg["humidity"]
+                    Humidity = msg["humidity"],
+                    School= message.Properties["school"].ToString(),
+                    Student= message.Properties["student"].ToString()
                 };
                 return payload;
             }

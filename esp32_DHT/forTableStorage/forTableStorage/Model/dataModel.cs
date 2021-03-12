@@ -13,5 +13,7 @@ namespace forTableStorage.Model
         public double Temperature { get; set; }
 
         public int Humidity { get; set; }
+        public string School { get; set; }
+        public string Student { get; set; }
     }
 }
