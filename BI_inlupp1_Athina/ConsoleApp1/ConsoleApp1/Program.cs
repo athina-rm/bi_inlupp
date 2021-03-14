@@ -36,8 +36,8 @@ namespace ConsoleApp1
             msg.Properties["measurementType"] = "smhi";
             msg.Properties["school"] = "Nackademin";
             msg.Properties["student"] = "Athina";
-            msg.Properties["latitude"] = "59.3417m";
-            msg.Properties["longitude"] = "18.0549m";
+            msg.Properties["latitude"] = "59.3417";
+            msg.Properties["longitude"] = "18.0549";
             await deviceClient.SendEventAsync(msg);
             Console.WriteLine(message);
         }        
