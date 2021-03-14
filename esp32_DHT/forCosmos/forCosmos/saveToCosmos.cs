@@ -39,7 +39,9 @@ namespace cosmosFA
                 measurementType = _measurementType,
                 measurementTime = _measurementTime,
                 school = _school,
-                student = _student
+                student = _student,
+                latitude= message.Properties["latitude"].ToString(),
+                longitude= message.Properties["longitude"].ToString()
             };
             cosmos = JsonConvert.SerializeObject(_cosmos);
             log.LogInformation($"Message in Cosmos DB: {JsonConvert.SerializeObject(_cosmos)}");

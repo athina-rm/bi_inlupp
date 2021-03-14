@@ -18,7 +18,7 @@ namespace forTableStorage
 
         [FunctionName("writeToTable")]
         [return: Table("fortablestorage")]
-        public static dataModel Run([IoTHubTrigger("messages/events", Connection = "iothubendpoint",ConsumerGroup ="storagecg")]EventData message, ILogger log)
+        public static dataModel Run([IoTHubTrigger("messages/events", Connection = "iothubendpoint",ConsumerGroup = "storagecg")]EventData message, ILogger log)
             {
             try
             {
@@ -29,11 +29,11 @@ namespace forTableStorage
                     PartitionKey = message.SystemProperties["iothub-connection-device-id"].ToString(),
                     RowKey = Guid.NewGuid().ToString(),
                     MeasurementType = message.Properties["measurementType"].ToString(),
+                    School = message.Properties["School"].ToString(),
+                    Student = message.Properties["Student"].ToString(),
                     MeasurementTime = DateTimeOffset.FromUnixTimeSeconds(unixTime).DateTime,
                     Temperature = msg["temperature"],
-                    Humidity = msg["humidity"],
-                    School= message.Properties["school"].ToString(),
-                    Student= message.Properties["student"].ToString()
+                    Humidity = msg["humidity"]                    
                 };
                 return payload;
             }

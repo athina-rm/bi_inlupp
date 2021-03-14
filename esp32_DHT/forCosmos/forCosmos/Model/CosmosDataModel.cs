@@ -12,6 +12,8 @@ namespace cosmosFA.Models
         public DateTime measurementTime { get; set; }
         public string school { get; set; }
         public string student { get; set; }
+        public string latitude { get; set; }
+        public string longitude { get; set; }
 
     }
 }

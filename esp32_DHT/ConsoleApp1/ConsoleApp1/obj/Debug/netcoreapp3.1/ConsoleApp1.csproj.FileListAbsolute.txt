@@ -30,3 +30,35 @@ C:\Users\athin\OneDrive\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\
 C:\Users\athin\OneDrive\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 C:\Users\athin\OneDrive\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 C:\Users\athin\OneDrive\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\DotNetty.Buffers.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\DotNetty.Codecs.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\DotNetty.Codecs.Mqtt.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\DotNetty.Common.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\DotNetty.Handlers.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\DotNetty.Transport.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Azure.Devices.Client.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Azure.Devices.Shared.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\SmhiWeather.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\athin\OneDrive\Documents\nackademin\Business Intelligence\inlupp1\esp32_DHT\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
